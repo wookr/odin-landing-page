@@ -1,0 +1,26 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.hero, .footer {
+    background-color: #1F2937;
+}
+
+.hero__text__main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero__text__sub, .links {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header__logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+
+

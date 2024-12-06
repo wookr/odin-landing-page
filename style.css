@@ -3,6 +3,18 @@ body {
     margin: 0;
 }
 
+button.sign-up {
+    cursor: pointer;
+    padding: 8px 32px;
+    border-radius: 8px;
+    background-color: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    font-size: 18px;
+
+    align-self: flex-start;
+}
+
 .hero, .footer {
     background-color: #1F2937;
 }
@@ -25,6 +37,7 @@ body {
 .header__logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
 }
 
 
@@ -57,9 +70,10 @@ body {
 }
 
 .hero__text {
-    display:flex;
+    display: flex;
     flex-direction: column;
     flex: 1;
+    gap: 8px;
 }
 
 .placeholder-image {

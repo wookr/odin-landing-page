@@ -7,12 +7,10 @@ button.sign-up {
     cursor: pointer;
     padding: 8px 32px;
     border-radius: 8px;
-    background-color: royalblue;
-    border: 1px solid royalblue;
+    background-color: #3882F6;
+    border: 1px solid #3882F6;
     color: white;
     font-size: 18px;
-
-    align-self: flex-start;
 }
 
 .hero, .footer {
@@ -20,7 +18,7 @@ button.sign-up {
 }
 
 .hero {
-    padding: 0 200px;
+    padding: 0 15%;
 }
 
 .hero__text__main {
@@ -29,7 +27,7 @@ button.sign-up {
     font-weight: 900;
 }
 
-.hero__text__sub, .links a {
+.hero__text__sub, .links a, .footer {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -55,6 +53,11 @@ button.sign-up {
     align-items: center;
 }
 
+.footer {
+    padding: 2em;
+    text-align: center;
+}
+
 
 .links {
     list-style-type: none;
@@ -74,6 +77,8 @@ button.sign-up {
     flex-direction: column;
     flex: 1;
     gap: 8px;
+
+    align-items: start;
 }
 
 .image-placeholder {
@@ -83,16 +88,20 @@ button.sign-up {
     flex: 1;
 }
 
-.container {
-    margin-bottom: 5em;
+
+.body__title {
+    margin: 1em;
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.content-container {
+    margin-bottom: 8em;
     display: flex;
     justify-content: center;
     gap: 5%;
-}
-
-.insert {
-    background-color: lightgray;
-    height: 200px;
 }
 
 .content {
@@ -108,21 +117,70 @@ button.sign-up {
     width: 200px;
     height: 200px;
     border-radius: 20px;
-    border: 4px solid royalblue;
+    border: 4px solid #3882F6;
 }
 
-.body__title {
-    margin: 1em;
-    text-align: center;
-    font-size: 36px;
-    color: #1F2937;
-    font-weight: 900;
-}
 
 .content__text {
     font-size: 18px;
     color: gray;
     text-align: justify;
+    text-align-last: center;
+}
+
+.section--alt {
+    background-color: #E5E7EB;
+    height: 400px;
+    padding: 0 20em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section__text__main {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.section__text__sub {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
 }
 
 
+.banner {
+    margin: 5em auto;
+
+    background-color: #3882F6;
+    width: 70%;
+    height: 8em;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10em;
+}
+
+.banner__main {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.banner__sub {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+button.banner__sign-up {
+    cursor: pointer;
+    padding: 8px 32px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    border: 1px solid white;
+    color: white;
+    font-size: 18px;
+}
